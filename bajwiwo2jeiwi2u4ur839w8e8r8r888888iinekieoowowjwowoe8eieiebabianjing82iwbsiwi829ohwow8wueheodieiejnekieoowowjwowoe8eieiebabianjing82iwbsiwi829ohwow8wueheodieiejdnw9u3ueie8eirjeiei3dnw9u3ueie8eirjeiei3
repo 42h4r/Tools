@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-import os, sys, time, datetime, random, hashlib, re, threading, json, getpass, urllib
-from multiprocessing.pool import ThreadPool
-
-#hay manusia udah nyampe di sini ea  ubah author ataupun ngerecode semoga emak bapaknya mati dalam keadaan mengenaskan
-#buat yg nyampe di sini cuman buat mempelajari pemrograman dan beberapa fungsinya ane ucapin selamat berjuang
-#tapi awaslu yg nge recode ataupun mengganti author
-
 def tik():
     titik = [
      '   ', '.  ', '.. ', '...', '.. ', '.  ', '   ']
