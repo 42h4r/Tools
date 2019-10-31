@@ -1,18 +1,3 @@
-try:
-	import mechanize
-except ImportError:
-    os.system('pip2 install mechanize')
-else:
-    try:
-        import requests
-    except ImportError:
-        os.system('pip2 install requests')
-        
-
-def restart():
-    ngulang = sys.executable
-    os.execl(ngulang, ngulang, *sys.argv)
-
 def wa():
     os.system('xdg-open https://api.whatsapp.com/send?phone=083846182982&text=Assalamualaikum')
 
@@ -86,11 +71,9 @@ if pilih == 1:
 	entertools()
 elif pilih == 2:
 	tik()
+elif pilih == 3:
 	wa()
 	print '\n\033[1;37mTerimakasih Telah Menggunakan Tools Ini ^_^'
-elif pilih == 3:
-	tik()
-	os.system ('bash babi_lu.sh')
 elif pilih == 4:
 	os.system('xdg-open https://adsafelink.com/9RRWZ')
 elif pilih == 0:
